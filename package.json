@@ -1,0 +1,25 @@
+{
+  "name": "sistem_monitoring_nuxt",
+  "version": "1.0.0",
+  "description": "My exceptional Nuxt.js project",
+  "author": "Terry Djony",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PORT=3333 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate --spa"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^1.0.2",
+    "chart.js": "^2.7.2",
+    "moment": "^2.22.2",
+    "nuxt": "^1.0.0",
+    "vue-chartkick": "^0.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
